@@ -284,3 +284,4 @@ C:\Users\jeffr\Documents\Codigos\Lenguajes\Unidad II\ExamenII\examen_unidad2_bac
 C:\Users\jeffr\Documents\Codigos\Lenguajes\Unidad II\ExamenII\examen_unidad2_backend\examen_unidad2_backend\obj\Debug\net8.0\examen_unidad2_backend.pdb
 C:\Users\jeffr\Documents\Codigos\Lenguajes\Unidad II\ExamenII\examen_unidad2_backend\examen_unidad2_backend\obj\Debug\net8.0\examen_unidad2_backend.genruntimeconfig.cache
 C:\Users\jeffr\Documents\Codigos\Lenguajes\Unidad II\ExamenII\examen_unidad2_backend\examen_unidad2_backend\obj\Debug\net8.0\ref\examen_unidad2_backend.dll
+C:\Users\jeffr\Documents\Codigos\Lenguajes\Unidad II\ExamenII\examen_unidad2_backend\examen_unidad2_backend\obj\Debug\net8.0\examen_unidad2_backend.sourcelink.json

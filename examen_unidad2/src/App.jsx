@@ -1,14 +1,23 @@
-import { useState } from 'react'
+import React, { useState } from 'react';
+import FormPaciente from './components/FormPaciente';
+import ListImc from './components/ListImc';
 
+const App = () => {
+    const [paciente, setPaciente] = useState({ nombre: '', peso: 0, altura: 0 });
+    const [pacientes, setPacientes] = useState([]);
 
-function App() {
-  const [count, setCount] = useState(0)
+    const addPaciente = () => {
+        setPacientes([...pacientes, paciente]);
+        setPaciente({ nombre: '', peso: 0, altura: 0 });
+    };
 
-  return (
-    <>
-    <h2 className='bg-slate-400'>Hola mundo</h2>
-    </>
-  )
-}
+    return (
+        <div className="App">
+            <FormPaciente addPaciente={addPaciente} paciente={paciente} setPaciente={setPaciente} />
+            <ListImc pacientes={pacientes} />
+        </div>
+    );
+};
 
-export default App
+export default App;
+
